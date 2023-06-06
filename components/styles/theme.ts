@@ -34,6 +34,19 @@ const theme = {
   color: {
     white: "#ffffff",
     black: "#000000",
+    transparent: "transparent",
+    primary: {
+      50: "#FFF6E5",
+      100: "#FFEECC",
+      200: "#FFDD99",
+      300: "#FFCC66",
+      400: "#FFBB33",
+      500: "#FFAA00",
+      600: "#CC8800",
+      700: "#996600",
+      800: "#664400",
+      900: "#332200",
+    },
     gray: {
       50: "#fafafa",
       100: "#f4f4f5",
@@ -84,14 +97,13 @@ const theme = {
     },
   },
   shadow: {
-    xs: "0 1px 2px 0 rgba(0, 0, 0, 0.05)",
-    sm: "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1)",
-    md: "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1)",
-    lg: "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1)",
-    xl: "0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1)",
+    1: "0px 4px 8px rgba(16, 24, 64, 0.08)",
+    2: "0px 4px 8px rgba(16, 24, 64, 0.16)",
+    3: "0px 12px 40px rgba(16, 24, 64, 0.24)",
     inset: {
       top: "inset 0px 1px 0px #d4d4d8",
       bottom: "inset 0px -1px 0px #d4d4d8",
+      both: "inset 0px 1px 0px #d4d4d8, inset 0px -1px 0px #d4d4d8",
     },
   },
   rounded: {

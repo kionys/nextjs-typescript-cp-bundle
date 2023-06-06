@@ -13,7 +13,7 @@ const global = css`
     box-sizing: border-box; /* 1 */
     border-width: 0; /* 2 */
     border-style: solid; /* 2 */
-    border-color: ${theme.color.gray[300]}, "currentColor"; /* 2 */
+    border-color: ${theme.color.gray[200]}, "currentColor"; /* 2 */
   }
 
   ::before,
@@ -366,6 +366,7 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
 
   img,
   video {
+    margin: auto;
     max-width: 100%;
     height: auto;
   }
